@@ -24,12 +24,11 @@ In this project, you will develop UDA-Hub, an intelligent, multi-agent decision 
 2. **Input Handling** Accept incoming support tickets in natural language with metadata (e.g., platform, urgency, history).
 
 3. **Decision Routing and Resolution**
-
   - Route tickets to the right agent based on classification
   - Retrieve relevant knowledge via RAG if needed
   - Resolve or escalate based on confidence and context
-4. **Memory Integration**
 
+4. **Memory Integration**
   - Maintain state during steps of the execution
   - Short-term memory is used as context to keep conversation running during the same session
   - Store and recall long-term memory for preferences, as an example
